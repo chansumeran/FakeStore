@@ -1,0 +1,10 @@
+<div class="border flex p-12">
+  <img [src]="product.image" [attr.alt]="product.title" class="w-[150px] h-[150px] mr-5 object-cover">
+
+  <div class="flex-1">
+    <p class="text-xl font-bold">{{ product.title }}</p>
+    <p class="text-md">{{ product.description }}</p>
+    <p class="text-md">{{ product.category }}</p>
+    <p class="text-sm mt-2">${{ product.price }}</p>
+  </div>
+</div>
